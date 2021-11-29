@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblItem_V"
+        android:text="[+] Item"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/agencyb"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:id="@+id/lblData_V"
+            android:text="MMM/YY"
+            android:textSize="25sp"
+            android:fontFamily="@font/agencyr"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:id="@+id/lblValor_V"
+            android:text="R$ 0.00"
+            android:textSize="25sp"
+            android:textAlignment="textEnd"
+            android:fontFamily="@font/agencyr"/>
+
+    </LinearLayout>
+
+</LinearLayout>

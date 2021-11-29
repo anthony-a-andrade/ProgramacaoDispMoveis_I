@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    android:paddingVertical="5dp"
+    android:paddingHorizontal="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor:"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/agencyb"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtValor"
+        android:hint="Valor da movimentação..."
+        android:inputType="numberDecimal"
+        android:textSize="25sp"
+        android:fontFamily="@font/agencyr"/>
+
+</LinearLayout>
